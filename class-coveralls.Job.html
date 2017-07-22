@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <link rel="stylesheet" href="resources/bootstrap.min.css">
+        <link rel="stylesheet" href="resources/style.css">
+
+        <title>
+            Class coveralls\Job
+        </title>
+    </head>
+
+    <body>
+<div id="navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="index.html">
+                                Overview
+                            </a>
+                        </li>
+
+                            <li>
+                                <a href="classes.html">Classes</a>
+                            </li>
+
+
+
+                            <li>
+                                <a href="functions.html">Functions</a>
+                            </li>
+
+
+                    </ul>
+
+                    <form id="search" class="pull-right">
+                        <input type="text" name="q" class="form-control text" placeholder="Search class, function or namespace" autofocus>
+                    </form>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+            <div id="breadcrumbs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+
+
+<div class="pull-left type">
+    <span class="label label-success">Class</span>
+</div>
+
+<ol class="breadcrumb pull-left">
+        <li>
+            <a href="namespace-coveralls.html">coveralls</a>
+        </li>
+
+        <li class="backslash">\</li>
+        <li class="active">Job</li>
+</ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+    <h1>Job</h1>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Represents the coverage data from a single run of a test suite.
+            </div>
+        </div>
+
+        <dl class="tree">
+            <dd>
+
+                    implements
+                        <a href="interface-JsonSerializable.html">
+                            JsonSerializable
+                        </a>
+
+            </dd>
+        </dl>
+
+
+
+    <div class="info">
+        
+
+        <a href="source-class-coveralls.Job.html" class="open-source-code">Open source code</a>
+        <br>
+    </div>
+
+        <table class="summary table table-bordered table-responsive table-striped" id="methods">
+            <tr><th colspan="3">Methods Summary</th></tr>
+
+
+
+<tr id="___construct">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#___construct">#</a>
+            <code><a href="source-class-coveralls.Job.html#64-66">__construct</a>( <span> array <span class="property-name">$sourceFiles</span> = <span class="php-keyword1">array</span> ( )</span> )</code>
+
+            <div class="description">
+                Initializes a new instance of the class.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="___toString">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#___toString">#</a>
+            <code><a href="source-class-coveralls.Job.html#72-75">__toString</a>( )</code>
+
+            <div class="description">
+                Returns a string representation of this object.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_fromJSON">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public static
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_fromJSON">#</a>
+            <code><a href="source-class-coveralls.Job.html#82-104">fromJSON</a>( <span> mixed <span class="property-name">$map</span> </span> )</code>
+
+            <div class="description">
+                Creates a new job from the specified JSON map.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_getCommitSha">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_getCommitSha">#</a>
+            <code><a href="source-class-coveralls.Job.html#110-112">getCommitSha</a>( )</code>
+
+            <div class="description">
+                Gets the current SHA of the commit being built to override the `git` parameter.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_getGit">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_getGit">#</a>
+            <code><a href="source-class-coveralls.Job.html#118-120">getGit</a>( )</code>
+
+            <div class="description">
+                Get the Git data that can be used to display more information to users.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_getRepoToken">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_getRepoToken">#</a>
+            <code><a href="source-class-coveralls.Job.html#126-128">getRepoToken</a>( )</code>
+
+            <div class="description">
+                Gets the secret token for the repository.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_getRunAt">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_getRunAt">#</a>
+            <code><a href="source-class-coveralls.Job.html#134-136">getRunAt</a>( )</code>
+
+            <div class="description">
+                Gets the timestamp of when the job ran.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_getServiceJobId">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_getServiceJobId">#</a>
+            <code><a href="source-class-coveralls.Job.html#142-144">getServiceJobId</a>( )</code>
+
+            <div class="description">
+                Gets the unique identifier of the job on the CI service.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_getServiceName">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_getServiceName">#</a>
+            <code><a href="source-class-coveralls.Job.html#150-152">getServiceName</a>( )</code>
+
+            <div class="description">
+                Gets the CI service or other environment in which the test suite was run.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_getServiceNumber">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_getServiceNumber">#</a>
+            <code><a href="source-class-coveralls.Job.html#158-160">getServiceNumber</a>( )</code>
+
+            <div class="description">
+                Gets the build number.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_getServicePullRequest">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_getServicePullRequest">#</a>
+            <code><a href="source-class-coveralls.Job.html#166-168">getServicePullRequest</a>( )</code>
+
+            <div class="description">
+                Gets the associated pull request identifier of the build.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_getSourceFiles">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_getSourceFiles">#</a>
+            <code><a href="source-class-coveralls.Job.html#174-176">getSourceFiles</a>( )</code>
+
+            <div class="description">
+                Gets the list of source files.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_isParallel">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_isParallel">#</a>
+            <code><a href="source-class-coveralls.Job.html#182-184">isParallel</a>( )</code>
+
+            <div class="description">
+                Gets a value indicating whether the build will not be considered done until a webhook has been sent to Coveralls.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_jsonSerialize">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_jsonSerialize">#</a>
+            <code><a href="source-class-coveralls.Job.html#190-209">jsonSerialize</a>( )</code>
+
+            <div class="description">
+                Converts this object to a map in JSON format.
+
+
+
+
+
+
+
+
+                        <h2>Implementation of</h2>
+                        <div>
+                            <code>
+                                <a href="interface-JsonSerializable.html#_jsonSerialize">
+                                    JsonSerializable::jsonSerialize()
+                                </a>
+                            </code>
+                        </div>
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_setCommitSha">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_setCommitSha">#</a>
+            <code><a href="source-class-coveralls.Job.html#216-219">setCommitSha</a>( <span> string <span class="property-name">$value</span> </span> )</code>
+
+            <div class="description">
+                Sets the current SHA of the commit being built to override the `git` parameter.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_setGit">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_setGit">#</a>
+            <code><a href="source-class-coveralls.Job.html#226-229">setGit</a>( <span> <a href="class-coveralls.GitData.html">coveralls\GitData</a> <span class="property-name">$value</span> = <span class="php-keyword1">NULL</span></span> )</code>
+
+            <div class="description">
+                Sets the Git data that can be used to display more information to users.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_setParallel">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_setParallel">#</a>
+            <code><a href="source-class-coveralls.Job.html#236-239">setParallel</a>( <span> bool <span class="property-name">$value</span> </span> )</code>
+
+            <div class="description">
+                Sets a value indicating whether the build will not be considered done until a webhook has been sent to Coveralls.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_setRepoToken">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_setRepoToken">#</a>
+            <code><a href="source-class-coveralls.Job.html#246-249">setRepoToken</a>( <span> string <span class="property-name">$value</span> </span> )</code>
+
+            <div class="description">
+                Sets the secret token for the repository.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_setRunAt">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_setRunAt">#</a>
+            <code><a href="source-class-coveralls.Job.html#256-263">setRunAt</a>( <span> mixed <span class="property-name">$value</span> </span> )</code>
+
+            <div class="description">
+                Sets the timestamp of when the job ran.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_setServiceJobId">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_setServiceJobId">#</a>
+            <code><a href="source-class-coveralls.Job.html#270-273">setServiceJobId</a>( <span> string <span class="property-name">$value</span> </span> )</code>
+
+            <div class="description">
+                Gets the unique identifier of the job on the CI service.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_setServiceName">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_setServiceName">#</a>
+            <code><a href="source-class-coveralls.Job.html#280-283">setServiceName</a>( <span> string <span class="property-name">$value</span> </span> )</code>
+
+            <div class="description">
+                Gets the CI service or other environment in which the test suite was run.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_setServiceNumber">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_setServiceNumber">#</a>
+            <code><a href="source-class-coveralls.Job.html#290-293">setServiceNumber</a>( <span> string <span class="property-name">$value</span> </span> )</code>
+
+            <div class="description">
+                Gets the build number.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_setServicePullRequest">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_setServicePullRequest">#</a>
+            <code><a href="source-class-coveralls.Job.html#300-303">setServicePullRequest</a>( <span> string <span class="property-name">$value</span> </span> )</code>
+
+            <div class="description">
+                Gets the associated pull request identifier of the build.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_setSourceFiles">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_setSourceFiles">#</a>
+            <code><a href="source-class-coveralls.Job.html#310-313">setSourceFiles</a>( <span> array <span class="property-name">$value</span> </span> )</code>
+
+            <div class="description">
+                Sets the list of source files.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+        </table>
+
+
+
+
+
+
+
+    <div id="footer">
+        Generated by <a href="https://github.com/apigen/apigen">ApiGen</a>
+    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="resources/jquery-3.2.1.min.js"></script>
+        <script src="resources/jquery-ui-1.12.1.min.js"></script>
+
+        <script src="elementlist.js"></script>
+        <script src="resources/main.js"></script>
+    </body>
+</html>
+
+

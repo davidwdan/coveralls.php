@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <link rel="stylesheet" href="resources/bootstrap.min.css">
+        <link rel="stylesheet" href="resources/style.css">
+
+        <title>
+            Class coveralls\GitData
+        </title>
+    </head>
+
+    <body>
+<div id="navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="index.html">
+                                Overview
+                            </a>
+                        </li>
+
+                            <li>
+                                <a href="classes.html">Classes</a>
+                            </li>
+
+
+
+                            <li>
+                                <a href="functions.html">Functions</a>
+                            </li>
+
+
+                    </ul>
+
+                    <form id="search" class="pull-right">
+                        <input type="text" name="q" class="form-control text" placeholder="Search class, function or namespace" autofocus>
+                    </form>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+            <div id="breadcrumbs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+
+
+<div class="pull-left type">
+    <span class="label label-success">Class</span>
+</div>
+
+<ol class="breadcrumb pull-left">
+        <li>
+            <a href="namespace-coveralls.html">coveralls</a>
+        </li>
+
+        <li class="backslash">\</li>
+        <li class="active">GitData</li>
+</ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+    <h1>GitData</h1>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Represents Git data that can be used to display more information to users.
+            </div>
+        </div>
+
+        <dl class="tree">
+            <dd>
+
+                    implements
+                        <a href="interface-JsonSerializable.html">
+                            JsonSerializable
+                        </a>
+
+            </dd>
+        </dl>
+
+
+
+    <div class="info">
+        
+
+        <a href="source-class-coveralls.GitData.html" class="open-source-code">Open source code</a>
+        <br>
+    </div>
+
+        <table class="summary table table-bordered table-responsive table-striped" id="methods">
+            <tr><th colspan="3">Methods Summary</th></tr>
+
+
+
+<tr id="___construct">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#___construct">#</a>
+            <code><a href="source-class-coveralls.GitData.html#33-37">__construct</a>( <span> <a href="class-coveralls.GitCommit.html">coveralls\GitCommit</a> <span class="property-name">$commit</span> = <span class="php-keyword1">NULL</span></span>, <span> string <span class="property-name">$branch</span> = <span class="php-quote">''</span></span>, <span> array <span class="property-name">$remotes</span> = <span class="php-keyword1">array</span> ( )</span> )</code>
+
+            <div class="description">
+                Initializes a new instance of the class.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="___toString">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#___toString">#</a>
+            <code><a href="source-class-coveralls.GitData.html#43-46">__toString</a>( )</code>
+
+            <div class="description">
+                Returns a string representation of this object.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_fromJSON">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public static
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_fromJSON">#</a>
+            <code><a href="source-class-coveralls.GitData.html#53-66">fromJSON</a>( <span> mixed <span class="property-name">$map</span> </span> )</code>
+
+            <div class="description">
+                Creates a new Git data from the specified JSON map.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_fromRepository">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public static
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_fromRepository">#</a>
+            <code><a href="source-class-coveralls.GitData.html#74-112">fromRepository</a>( <span> string <span class="property-name">$path</span> = <span class="php-quote">''</span></span> )</code>
+
+            <div class="description">
+                Creates a new Git data from a local repository.
+
+This method relies on the availability of the Git executable in the system path.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_getBranch">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_getBranch">#</a>
+            <code><a href="source-class-coveralls.GitData.html#118-120">getBranch</a>( )</code>
+
+            <div class="description">
+                Gets the branch name.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_getCommit">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_getCommit">#</a>
+            <code><a href="source-class-coveralls.GitData.html#126-128">getCommit</a>( )</code>
+
+            <div class="description">
+                Gets the Git commit.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_getRemotes">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_getRemotes">#</a>
+            <code><a href="source-class-coveralls.GitData.html#134-136">getRemotes</a>( )</code>
+
+            <div class="description">
+                Gets the remote repositories.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_jsonSerialize">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_jsonSerialize">#</a>
+            <code><a href="source-class-coveralls.GitData.html#142-150">jsonSerialize</a>( )</code>
+
+            <div class="description">
+                Converts this object to a map in JSON format.
+
+
+
+
+
+
+
+
+                        <h2>Implementation of</h2>
+                        <div>
+                            <code>
+                                <a href="interface-JsonSerializable.html#_jsonSerialize">
+                                    JsonSerializable::jsonSerialize()
+                                </a>
+                            </code>
+                        </div>
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_setBranch">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_setBranch">#</a>
+            <code><a href="source-class-coveralls.GitData.html#157-160">setBranch</a>( <span> string <span class="property-name">$value</span> </span> )</code>
+
+            <div class="description">
+                Sets the branch name.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_setCommit">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_setCommit">#</a>
+            <code><a href="source-class-coveralls.GitData.html#167-170">setCommit</a>( <span> <a href="class-coveralls.GitCommit.html">coveralls\GitCommit</a> <span class="property-name">$value</span> = <span class="php-keyword1">NULL</span></span> )</code>
+
+            <div class="description">
+                Sets the Git commit.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_setRemotes">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_setRemotes">#</a>
+            <code><a href="source-class-coveralls.GitData.html#177-180">setRemotes</a>( <span> array <span class="property-name">$value</span> </span> )</code>
+
+            <div class="description">
+                Sets the remote repositories.
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+        </table>
+
+
+
+
+
+
+
+    <div id="footer">
+        Generated by <a href="https://github.com/apigen/apigen">ApiGen</a>
+    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="resources/jquery-3.2.1.min.js"></script>
+        <script src="resources/jquery-ui-1.12.1.min.js"></script>
+
+        <script src="elementlist.js"></script>
+        <script src="resources/main.js"></script>
+    </body>
+</html>
+
+
